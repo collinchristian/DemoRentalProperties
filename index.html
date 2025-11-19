@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunny Hills Rentals | Apartments for Rent</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- Lightbox for galleries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Sunny Hills Rentals</h1>
+      <nav>
+        <a href="#properties">Properties</a>
+        <a href="#tenant-portal">Tenant Portal</a>
+        <a href="#lease">Lease Agreement</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h2>Modern Apartments in Great Locations</h2>
+      <p>Family-owned • Well-maintained • Easy online payments</p>
+      <a href="#properties" class="btn">View Available Units</a>
+    </div>
+  </section>
+
+  <!-- Properties Gallery -->
+  <section id="properties" class="section">
+    <div class="container">
+      <h2>Available Properties</h2>
+      <div class="grid">
+
+        <!-- Property 1 -->
+        <div class="property-card">
+          <h3>123 Oak Street – 2 Bed / 1 Bath</h3>
+          <p><strong>$1,450/mo</strong> • Available Now</p>
+          <p>Recently renovated, hardwood floors, in-unit laundry, off-street parking, large backyard.</p>
+          <div class="gallery">
+            <a href="properties/property1/1.jpg" data-lightbox="prop1" data-title="Living room">
+              <img src="properties/property1/thumb.jpg" alt="123 Oak St">
+            </a>
+            <a href="properties/property1/2.jpg" data-lightbox="prop1"></a>
+            <a href="properties/property1/3.jpg" data-lightbox="prop1"></a>
+            <!-- add more photos -->
+          </div>
+          <a href="mailto:you@email.com?subject=Inquiry%20-%20123%20Oak%20Street" class="btn small">Inquire</a>
+        </div>
+
+        <!-- Repeat for your other 4 properties (just copy/paste and change details) -->
+        <!-- Property 2 example -->
+        <div class="property-card">
+          <h3>456 Maple Ave – 1 Bed / 1 Bath</h3>
+          <p><strong>$1,200/mo</strong> • Available Dec 1</p>
+          <p>Top floor, lots of natural light, walk-in closet, central AC, pet-friendly.</p>
+          <div class="gallery">
+            <a href="properties/property2/1.jpg" data-lightbox="prop2"><img src="properties/property2/thumb.jpg" alt="456 Maple Ave"></a>
+            <a href="properties/property2/2.jpg" data-lightbox="prop2"></a>
+            <!-- more -->
+          </div>
+          <a href="mailto:you@email.com?subject=Inquiry%20-%20456%20Maple%20Ave" class="btn small">Inquire</a>
+        </div>
+
+        <!-- Add the other 3 properties the same way -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Tenant Portal (Rent Payment + Messaging) -->
+  <section id="tenant-portal" class="section bg-light">
+    <div class="container">
+      <h2>Current Tenants</h2>
+      <p>Pay rent online, submit maintenance requests, or message us directly.</p>
+      
+      <!-- Option 1: Cozy.co (completely free for landlords) -->
+      <div style="text-align:center; margin: 30px 0;">
+        <a href="https://cozy.co/tenant/signup" target="_blank" class="btn large">Pay Rent or Log In (Cozy)</a>
+      </div>
+
+      <!-- Option 2: Live chat widget (adds floating chat button on entire site) -->
+      <p>Need to reach us quickly? Use the chat bubble in the bottom-right →</p>
+    </div>
+  </section>
+
+  <!-- Lease Agreement -->
+  <section id="lease" class="section">
+    <div class="container">
+      <h2>Lease Agreement</h2>
+      <p>Download our standard lease template (PDF):</p>
+      <a href="leases/lease-template.pdf" target="_blank" class="btn">Download Lease PDF</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> you@email.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> 789 Rental Office Dr, Suite 100<br>Anytown, ST 12345</p>
+      </div>
+      <p>We usually reply within a few hours!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Sunny Hills Rentals. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+  <!-- Tidio Chat (free, includes tenant messaging) - replace XXXXXX with your ID after signup -->
+  <script src="//code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
+
+  <!-- Optional: Crisp.chat instead (also free) -->
+  <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="YOUR-CRISP-ID";</script>
+  <script src="https://client.crisp.chat/l.js" async></script> -->
+
+</body>
+</html>
