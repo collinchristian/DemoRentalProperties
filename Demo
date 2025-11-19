@@ -1,5 +1,8 @@
 your-repo/
 ├── index.html
+│   │   ├── css
+│   │   ├── properties
+│   │   ├── leases
 ├── properties/
 │   ├── property1/
 │   │   ├── thumb.jpg
